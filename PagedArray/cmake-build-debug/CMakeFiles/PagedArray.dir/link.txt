@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/PagedArray.dir/main.cpp.o CMakeFiles/PagedArray.dir/PagedArray.cpp.o CMakeFiles/PagedArray.dir/Slot.cpp.o CMakeFiles/PagedArray.dir/QuickSort.cpp.o -o PagedArray 
