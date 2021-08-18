@@ -1,4 +1,4 @@
-# Install script for directory: /home/n4ssser/CLionProjects/PagedArray
+# Install script for directory: /home/n4ssser/PagedArray/PagedArray
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

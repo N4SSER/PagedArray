@@ -79,5 +79,4 @@ void PagedArray::save() {
     for (auto & slot : slots){
         slot.save(slot.id);
     }
-
 }

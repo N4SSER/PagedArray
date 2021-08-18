@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/n4ssser/CLionProjects/PagedArray/PagedArray.cpp" "/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/PagedArray.cpp.o"
-  "/home/n4ssser/CLionProjects/PagedArray/QuickSort.cpp" "/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/QuickSort.cpp.o"
-  "/home/n4ssser/CLionProjects/PagedArray/Slot.cpp" "/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/Slot.cpp.o"
-  "/home/n4ssser/CLionProjects/PagedArray/main.cpp" "/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/main.cpp.o"
+  "/home/n4ssser/PagedArray/PagedArray/PagedArray.cpp" "/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/PagedArray.cpp.o"
+  "/home/n4ssser/PagedArray/PagedArray/QuickSort.cpp" "/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/QuickSort.cpp.o"
+  "/home/n4ssser/PagedArray/PagedArray/Slot.cpp" "/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/Slot.cpp.o"
+  "/home/n4ssser/PagedArray/PagedArray/main.cpp" "/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

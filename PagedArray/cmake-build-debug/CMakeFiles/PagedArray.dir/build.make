@@ -53,10 +53,10 @@ RM = /snap/clion/162/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/n4ssser/CLionProjects/PagedArray
+CMAKE_SOURCE_DIR = /home/n4ssser/PagedArray/PagedArray
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/n4ssser/CLionProjects/PagedArray/cmake-build-debug
+CMAKE_BINARY_DIR = /home/n4ssser/PagedArray/PagedArray/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/PagedArray.dir/depend.make
@@ -68,55 +68,55 @@ include CMakeFiles/PagedArray.dir/flags.make
 
 CMakeFiles/PagedArray.dir/main.cpp.o: CMakeFiles/PagedArray.dir/flags.make
 CMakeFiles/PagedArray.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PagedArray.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/main.cpp.o -c /home/n4ssser/CLionProjects/PagedArray/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/PagedArray.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/main.cpp.o -c /home/n4ssser/PagedArray/PagedArray/main.cpp
 
 CMakeFiles/PagedArray.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PagedArray.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/CLionProjects/PagedArray/main.cpp > CMakeFiles/PagedArray.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/PagedArray/PagedArray/main.cpp > CMakeFiles/PagedArray.dir/main.cpp.i
 
 CMakeFiles/PagedArray.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PagedArray.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/CLionProjects/PagedArray/main.cpp -o CMakeFiles/PagedArray.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/PagedArray/PagedArray/main.cpp -o CMakeFiles/PagedArray.dir/main.cpp.s
 
 CMakeFiles/PagedArray.dir/PagedArray.cpp.o: CMakeFiles/PagedArray.dir/flags.make
 CMakeFiles/PagedArray.dir/PagedArray.cpp.o: ../PagedArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PagedArray.dir/PagedArray.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/PagedArray.cpp.o -c /home/n4ssser/CLionProjects/PagedArray/PagedArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/PagedArray.dir/PagedArray.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/PagedArray.cpp.o -c /home/n4ssser/PagedArray/PagedArray/PagedArray.cpp
 
 CMakeFiles/PagedArray.dir/PagedArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PagedArray.dir/PagedArray.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/CLionProjects/PagedArray/PagedArray.cpp > CMakeFiles/PagedArray.dir/PagedArray.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/PagedArray/PagedArray/PagedArray.cpp > CMakeFiles/PagedArray.dir/PagedArray.cpp.i
 
 CMakeFiles/PagedArray.dir/PagedArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PagedArray.dir/PagedArray.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/CLionProjects/PagedArray/PagedArray.cpp -o CMakeFiles/PagedArray.dir/PagedArray.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/PagedArray/PagedArray/PagedArray.cpp -o CMakeFiles/PagedArray.dir/PagedArray.cpp.s
 
 CMakeFiles/PagedArray.dir/Slot.cpp.o: CMakeFiles/PagedArray.dir/flags.make
 CMakeFiles/PagedArray.dir/Slot.cpp.o: ../Slot.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PagedArray.dir/Slot.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/Slot.cpp.o -c /home/n4ssser/CLionProjects/PagedArray/Slot.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/PagedArray.dir/Slot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/Slot.cpp.o -c /home/n4ssser/PagedArray/PagedArray/Slot.cpp
 
 CMakeFiles/PagedArray.dir/Slot.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PagedArray.dir/Slot.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/CLionProjects/PagedArray/Slot.cpp > CMakeFiles/PagedArray.dir/Slot.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/PagedArray/PagedArray/Slot.cpp > CMakeFiles/PagedArray.dir/Slot.cpp.i
 
 CMakeFiles/PagedArray.dir/Slot.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PagedArray.dir/Slot.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/CLionProjects/PagedArray/Slot.cpp -o CMakeFiles/PagedArray.dir/Slot.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/PagedArray/PagedArray/Slot.cpp -o CMakeFiles/PagedArray.dir/Slot.cpp.s
 
 CMakeFiles/PagedArray.dir/QuickSort.cpp.o: CMakeFiles/PagedArray.dir/flags.make
 CMakeFiles/PagedArray.dir/QuickSort.cpp.o: ../QuickSort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PagedArray.dir/QuickSort.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/QuickSort.cpp.o -c /home/n4ssser/CLionProjects/PagedArray/QuickSort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/PagedArray.dir/QuickSort.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/PagedArray.dir/QuickSort.cpp.o -c /home/n4ssser/PagedArray/PagedArray/QuickSort.cpp
 
 CMakeFiles/PagedArray.dir/QuickSort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PagedArray.dir/QuickSort.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/CLionProjects/PagedArray/QuickSort.cpp > CMakeFiles/PagedArray.dir/QuickSort.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/n4ssser/PagedArray/PagedArray/QuickSort.cpp > CMakeFiles/PagedArray.dir/QuickSort.cpp.i
 
 CMakeFiles/PagedArray.dir/QuickSort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PagedArray.dir/QuickSort.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/CLionProjects/PagedArray/QuickSort.cpp -o CMakeFiles/PagedArray.dir/QuickSort.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/n4ssser/PagedArray/PagedArray/QuickSort.cpp -o CMakeFiles/PagedArray.dir/QuickSort.cpp.s
 
 # Object files for target PagedArray
 PagedArray_OBJECTS = \
@@ -134,7 +134,7 @@ PagedArray: CMakeFiles/PagedArray.dir/Slot.cpp.o
 PagedArray: CMakeFiles/PagedArray.dir/QuickSort.cpp.o
 PagedArray: CMakeFiles/PagedArray.dir/build.make
 PagedArray: CMakeFiles/PagedArray.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PagedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable PagedArray"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PagedArray.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -146,6 +146,6 @@ CMakeFiles/PagedArray.dir/clean:
 .PHONY : CMakeFiles/PagedArray.dir/clean
 
 CMakeFiles/PagedArray.dir/depend:
-	cd /home/n4ssser/CLionProjects/PagedArray/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/n4ssser/CLionProjects/PagedArray /home/n4ssser/CLionProjects/PagedArray /home/n4ssser/CLionProjects/PagedArray/cmake-build-debug /home/n4ssser/CLionProjects/PagedArray/cmake-build-debug /home/n4ssser/CLionProjects/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/n4ssser/PagedArray/PagedArray/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/n4ssser/PagedArray/PagedArray /home/n4ssser/PagedArray/PagedArray /home/n4ssser/PagedArray/PagedArray/cmake-build-debug /home/n4ssser/PagedArray/PagedArray/cmake-build-debug /home/n4ssser/PagedArray/PagedArray/cmake-build-debug/CMakeFiles/PagedArray.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/PagedArray.dir/depend
 

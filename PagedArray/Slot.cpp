@@ -13,8 +13,8 @@ void Slot ::toMemory(int i) {
     int buffer [256];
     fseek(file, sizeof(int)*i*256, SEEK_SET);
     fread(buffer, sizeof(int),256,file);
-    for (int i=0; i<256 ; i++){
-        array[i] = buffer[i];
+    for (int c=0; c < 256 ; c++){
+        array[c] = buffer[c];
     }
     id = i;
     fclose(file);
