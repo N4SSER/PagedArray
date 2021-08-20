@@ -4,9 +4,10 @@
 #include "PagedArray.h"
 int &PagedArray::operator[](int i) {
     int id = i/256;
-    i = i%256;
+    int in = i%256;
     int temp;
-    if(check(id)){
+    bool exist =check(id);
+    if(exist){
         temp = id;
         lfu[id] ++;
     }
@@ -15,7 +16,7 @@ int &PagedArray::operator[](int i) {
         lfu[id] = 0;
         temp = load(id);
     }
-    return slots[temp].array[i];
+    return slots[temp].array[in];
 }
 bool PagedArray::check(int id) {
     bool exist = false;

@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/n4ssser/PagedArray/PagedArray/PagedArray.h
+Slot.h
+/home/n4ssser/PagedArray/PagedArray/Slot.h
+map
+-
+
+/home/n4ssser/PagedArray/PagedArray/QuickSort.h
+PagedArray.h
+/home/n4ssser/PagedArray/PagedArray/PagedArray.h
+
+/home/n4ssser/PagedArray/PagedArray/Slot.h
+
+/home/n4ssser/PagedArray/PagedArray/main.cpp
+iostream
+-
+fstream
+-
+PagedArray.h
+/home/n4ssser/PagedArray/PagedArray/PagedArray.h
+QuickSort.h
+/home/n4ssser/PagedArray/PagedArray/QuickSort.h
+

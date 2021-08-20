@@ -7,14 +7,15 @@
 
 
 class Slot {
-
+private:
+    int size=0;
 public:
     bool used;
     int array[256]{};
-    int id{};
+    int id=-1;
     Slot();
-    void toMemory (int id);
-    void save(int id);
+    void toMemory (int i);
+    void save(int i);
 
 };
 

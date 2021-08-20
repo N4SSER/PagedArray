@@ -9,7 +9,7 @@ int main()
 {
     PagedArray parr;
     ifstream file("file2read.txt");
-    string data;
+    string data="";
     file.is_open();
     int size = 0;
     while(getline(file, data,','))
@@ -17,17 +17,24 @@ int main()
         size++;
     }
     int arr[size];
-    int i = 0;
+    int c = 0;
     while (getline(file,data,',')){
-        arr[i]=stoi(data);
-        i++;
+        arr[c]=stoi(data);//To check...
+        c++;
+    }
+    ofstream outfile("output.txt", std::ofstream::out);
+
+    outfile.is_open();
+    string n;
+    for(int i=0;i<size;i++){
+        outfile<< arr[i];
+        outfile<<",";
     }
     file.close();
-    FILE *fh = fopen ("file.bin", "wb");
-    if (fh != nullptr) {
-        fwrite (&arr, sizeof (arr), size, fh);
-        fclose (fh);
-    }
+
+
+
+
     QuickSort QS;
     QS.sort(&parr,0,size);
     parr.save();
