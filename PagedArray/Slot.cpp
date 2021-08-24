@@ -9,11 +9,14 @@ Slot ::Slot() {
     used = false;
 }
 void Slot ::toMemory(int i) {
+    this->id = i;
     ifstream file("output.txt");
-    string data;
+    string data="";
     file.is_open();
     while(getline(file, data,','))
     {
+        cout << size;
+        printf("2");
         size++;
     }
     int arr[size];
@@ -54,7 +57,6 @@ void Slot ::save(int i) {
                 changed = false;
                 c=q;
             }
-            printf("%i",array[c]);
             file<<std::to_string(array[c]);
             file<<",";
         }

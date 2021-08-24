@@ -7,34 +7,36 @@ using namespace std;
 
 int main()
 {
-    PagedArray parr;
     ifstream file("file2read.txt");
-    string data="";
+    string data;
     file.is_open();
     int size = 0;
     while(getline(file, data,','))
     {
         size++;
     }
+    file.close();
+    ifstream file3("file2read.txt");
+    string data1;
     int arr[size];
-    int c = 0;
-    while (getline(file,data,',')){
-        arr[c]=stoi(data);//To check...
+    int c=0;
+    while(getline(file3, data1,','))
+    {
+        arr[c]=stoi(data1);
         c++;
     }
+    file3.close();
+    PagedArray parr;
     ofstream outfile("output.txt", std::ofstream::out);
 
     outfile.is_open();
-    string n;
     for(int i=0;i<size;i++){
         outfile<< arr[i];
         outfile<<",";
     }
+    outfile<<"\n";
+    outfile.close();
     file.close();
-
-
-
-
     QuickSort QS;
     QS.sort(&parr,0,size);
     parr.save();

@@ -8,7 +8,7 @@
 
 class Slot {
 private:
-    int size=0;
+    int size=-1;
 public:
     bool used;
     int array[256]{};
