@@ -32,9 +32,10 @@ int main()
     outfile.is_open();
     for(int i=0;i<size;i++){
         outfile<< arr[i];
-        outfile<<",";
+        if(i<size-1){
+            outfile<<",";
+        }
     }
-    outfile<<"\n";
     outfile.close();
     file.close();
     QuickSort QS;

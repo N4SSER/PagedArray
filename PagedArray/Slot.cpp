@@ -11,56 +11,64 @@ Slot ::Slot() {
 void Slot ::toMemory(int i) {
     this->id = i;
     ifstream file("output.txt");
-    string data="";
+    string data;
     file.is_open();
     while(getline(file, data,','))
     {
-        cout << size;
-        printf("2");
         size++;
     }
+    file.close();
     int arr[size];
     int c = 0;
-    while (getline(file,data,',')){
-        arr[c]=stoi(data); //To check...
+    ifstream file0("output.txt");
+    file0.is_open();
+    string ndata;
+    while (getline(file0,ndata,',')){
+        arr[c]=stoi(ndata);
         c++;
     }
+    file0.close();
     int delim= i * 256 + 256;
     int q;
     for(q = i * 256; q < delim; q++){
-        if(q>size){
+        if(q==size){
             break;
         }
-        array[q] = arr[q];
+        array[q]=arr[q];
     }
-    file.close();
 }
 void Slot ::save(int i) {
-    std::ofstream ofs;
-    ofs.open("output.txt", std::ofstream::out | std::ofstream::trunc);
-    ofs.close();
-    if (i != 7) {
-        std::ofstream file("output.txt");
-        file.is_open();
-        bool changed = true;
-        int c;
-        for(c=0;c<size;c++){;
-            if(c== i * 256 && changed){
-                int q;
-                for(q = i * 256; q < i * 256 + 256; q++){
-                    if(q>size){
-                        break;
+
+    if(id!=-1){
+        std::ofstream ofs;
+        ofs.open("output.txt", std::ofstream::out | std::ofstream::trunc);
+        ofs.close();
+        if (i != 7) {
+            std::ofstream file("output.txt");
+            file.is_open();
+            bool changed = true;
+            int c;
+            for(c=0;c<size;c++){
+                if(c== i * 256 && changed){
+                    int q;
+                    for(q = i * 256; q < i * 256 + 256; q++){
+                        if(q==size){
+                            break;
+                        }
+                        file<<std::to_string(array[q]);
+                        file<<",";
                     }
-                    file<<std::to_string(array[c]);
+                    changed = false;
+                    c=q;
+                }
+                file<<std::to_string(array[c]);
+                if(c<size-1){
                     file<<",";
                 }
-                changed = false;
-                c=q;
             }
-            file<<std::to_string(array[c]);
-            file<<",";
+            file.close();
         }
-        file.close();
     }
+
 }
 
