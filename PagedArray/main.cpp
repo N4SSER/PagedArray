@@ -5,8 +5,9 @@
 
 using namespace std;
 
-int main()
+int main(int args, char* argv[])
 {
+
     ifstream file("file2read.txt");
     string data;
     file.is_open();

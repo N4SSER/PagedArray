@@ -39,15 +39,15 @@ void Slot ::toMemory(int i) {
 }
 void Slot ::save(int i) {
 
-    if(id!=-1){
-        std::ofstream ofs;
-        ofs.open("output.txt", std::ofstream::out | std::ofstream::trunc);
-        ofs.close();
         if (i != 7) {
+            std::ofstream ofs;
+            ofs.open("output.txt", std::ofstream::out | std::ofstream::trunc);
+            ofs.close();
             std::ofstream file("output.txt");
             file.is_open();
             bool changed = true;
             int c;
+            int &ref = c;
             for(c=0;c<size;c++){
                 if(c== i * 256 && changed){
                     int q;
@@ -59,13 +59,13 @@ void Slot ::save(int i) {
                         file<<",";
                     }
                     changed = false;
-                    c=q;
+                    ref=q;
                 }
                 file<<std::to_string(array[c]);
                 if(c<size-1){
                     file<<",";
                 }
-            }
+
             file.close();
         }
     }

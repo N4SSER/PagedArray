@@ -8,13 +8,17 @@
 
 class Slot {
 private:
-    int size{};
+    int size=0;
 public:
     bool used;
-    int array[256]{};
-    int id=-1;
+    ///@brief is the array that contents the elements of the page
+    int array[256];
+    int id=7;
     Slot();
+    ///@brief Loads the page and the elements to memory
+    ///@param i the id
     void toMemory (int i);
+    ///@brief save the page to memory
     void save(int i);
 
 };
